@@ -4,6 +4,7 @@ body, html{
 	margin:0;
 	font-family: 'Aclonica', sans-serif; 
 }
+/*The body code is probably the biggest piece of code in this CSS file*/
 h1{
 	margin:0px;
 	text-align:center;
@@ -35,7 +36,7 @@ p{
 	margin-left: auto;
 	margin-right: auto;
 }
-/*defines destop div percentages*/
+/*This defines the div percentage for desktop mode.*/
 .small-row{
 	display:block;
 	text-align:center;
@@ -85,7 +86,7 @@ p{
 	color:#f7eccd;/*clay white*/
 }
 .box4{background-image:url("wbackground.jpg");}
-/*responsiveness code*/
+/*This code is the responsive part of the page. Many things will happen on the page because of it.*/
 @media only screen and (max-width:700px){
 	.map{display:none;}
 	.small-row{height:15%;}
